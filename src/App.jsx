@@ -4,7 +4,7 @@ import "./App.css";
 
 function App() {
   const handleClick = () => {
-    fetch("http://localhost:3000/", {
+    fetch("https://render-express.onrender.com/", {
       credentials: "include",
     }).then((res) => console.log(res));
   };
